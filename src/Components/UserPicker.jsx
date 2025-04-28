@@ -52,7 +52,7 @@ const UserPicker = () => {
                 className={`px-3 py-1 rounded transition ${
                   isSelected
                     ? "bg-green-600 text-white hover:bg-green-700 animate-pulse"
-                    : "bg-blue-600 text-white hover:bg-blue-700 animate-spin"
+                    : "bg-blue-600 text-white hover:bg-blue-700"
                 }`}
               >
                 {isSelected ? "Selected" : "Pick"}
